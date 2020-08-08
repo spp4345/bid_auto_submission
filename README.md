@@ -29,10 +29,11 @@
   - 加入將決包說明寫入指定WORD檔功能
 ## 使用方法
  1. 將execution內的檔案下載後，將所有的檔案放在同一資料夾內
- 2. 將main.abc改為main.exe，並執行main.exe
- 3. 第一次執行會產生設定檔config.ini，並提示選擇套版檔
+ 2. 如果之前已經安裝過本程式，把comp_code.yaml、rformat.yaml、hot_phrases.yaml放在同一資料夾並覆蓋，第一次執行前確認資料夾內沒有config.ini，如果有的話直接刪除
+ 3. 將auto_sb-3.4-0808.abc副檔名abc改為exe，會變成猩猩圖案然後滑鼠左鍵雙擊執行(如果會被判定成病毒再試試看auto_sb-3.6-0808.abc)
+ 4. 程式自動檢查有無設定檔config.ini，如果沒有會產生新的config.ini，並提示選擇套版檔
  4. 台灣請選擇template_tw.yaml，大陸請選擇template_cn.yaml
- 5. 程式會自動偵測ERP開啟的暫存檔於user id\AppData\Local\Microsoft\Windows\INetCache\內之pdf檔
+ 5. 程式會自動偵測ERP開啟的暫存檔於user id\AppData\Local\Microsoft\Windows\INetCache\內之pdf檔，如果是win7系統另外設定路徑
  6. 如果是呈核表的pdf檔，會於程式檔案列表中出現該案工程名稱及次別
  7. 點選要產生決包說明的檔案，於右側說明元件中會出現對應的決包說明
  8. 部分需要使用者再輸入的資訊，會以{}標籤的形式出現，於說明元件按下滑鼠右鍵可叫出popup選單，可再**按下{}字詞取代會提示請使用者輸入資料**
