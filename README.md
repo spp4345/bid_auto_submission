@@ -29,7 +29,7 @@
   - 加入將決包說明寫入指定WORD檔功能
 ## 使用方法
  1. 將execution內的檔案下載後，將所有的檔案放在同一資料夾內
- 2. 如果之前已經安裝過本程式，把comp_code.yaml、rformat.yaml、hot_phrases.yaml放在同一資料夾並覆蓋，第一次執行前確認資料夾內沒有config.ini，如果有的話直接刪除
+ 2. 如果之前已經安裝過本程式，把之前的comp_code.yaml、rformat.yaml、hot_phrases.yaml放在同一資料夾並覆蓋，第一次執行前確認資料夾內沒有config.ini，如果有的話直接刪除
  3. 將auto_sb-3.4-0808.abc副檔名abc改為exe，會變成猩猩圖案然後滑鼠左鍵雙擊執行(如果會被判定成病毒再試試看auto_sb-3.6-0808.abc)
  4. 程式自動檢查有無設定檔config.ini，如果沒有會產生新的config.ini，並提示選擇套版檔
  4. 台灣請選擇template_tw.yaml，大陸請選擇template_cn.yaml
